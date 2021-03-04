@@ -1,6 +1,6 @@
-(defpackage arrayfire-capi/library
+(defpackage arrayfire-cffi/library
   (:use :cl))
-(in-package :arrayfire-capi/library)
+(in-package :arrayfire-cffi/library)
 
 (cffi:define-foreign-library arrayfire
   (:darwin (:or
